@@ -5,6 +5,13 @@ import CounterCustom from './components/01-useState/CounterCustom';
 import FormCustom from './components/02-useEffect/FormCustom';
 import SimpleForm from './components/02-useEffect/SimpleForm';
 import MultipleHooks from './components/03-examples/MultipleHooks';
+import FocusScreen from './components/04-useRef/FocusScreen';
+import RealRef from './components/04-useRef/RealRef';
+import Layout from './components/05-useLayoutEffect/Layout';
+import CallbackHook from './components/06-memos/CallbackHook';
+import MemoHook from './components/06-memos/MemoHook';
+import Memorize from './components/06-memos/Memorize';
+import { Padre } from './components/07-tarea-memo/Padre';
 //import HooksApp from './HooksApp';
 import './index.css';
 
@@ -19,6 +26,20 @@ ReactDOM.render(
     <FormCustom />
     <hr />
     <MultipleHooks />
+    <hr />
+    <FocusScreen />
+    <hr />
+    <RealRef />
+    <hr />
+    <Layout />
+    <hr />
+    <Memorize />
+    <hr />
+    <MemoHook />
+    <hr />
+    <CallbackHook />
+    <hr />
+    <Padre />
   </>,
   document.getElementById('root')
 );
