@@ -12,8 +12,11 @@ import CallbackHook from './components/06-memos/CallbackHook';
 import MemoHook from './components/06-memos/MemoHook';
 import Memorize from './components/06-memos/Memorize';
 import { Padre } from './components/07-tarea-memo/Padre';
-//import HooksApp from './HooksApp';
+import TodoApp from './components/08-useReducer/TodoApp';
 import './index.css';
+
+//import HooksApp from './HooksApp';
+//import './components/08-useReducer/intro-reducer';
 
 ReactDOM.render(
   <> 
@@ -40,6 +43,8 @@ ReactDOM.render(
     <CallbackHook />
     <hr />
     <Padre />
+    <hr />
+    <TodoApp />
   </>,
   document.getElementById('root')
 );
