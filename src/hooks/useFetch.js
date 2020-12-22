@@ -28,6 +28,12 @@ export const useFetch = (url) => {
                 console.log('setSate no fue llamado');
             }
 
+        }).catch( () => {
+            setState({
+                data: null,
+                loading: false,
+                error: 'No se pudo cargar la información'
+            })
         })
 
     }, [url]);
